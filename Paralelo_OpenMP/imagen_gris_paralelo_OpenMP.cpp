@@ -68,9 +68,9 @@ int main(int argc, char *argv[])
     cout << "Conversión finalizada..." << endl;
     cout << "Tiempo total transcurrido en segundos: " << duration.count() << endl;
 
-    // Mostrar la imagen en escala de grises (si lo deseas)
-    imshow("Escala de grises", grayscaleImage);
-    waitKey(0);
+    // Mostrar la imagen en escala de grises (descomentar si se desea)
+    //imshow("Escala de grises", grayscaleImage);
+    //waitKey(0);
 
     // Guardar la imagen en escala de grises como un nuevo archivo
     imwrite(nombreImagenGrises, grayscaleImage);
