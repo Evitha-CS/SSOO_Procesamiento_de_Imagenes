@@ -11,7 +11,8 @@ int main(int argc, char *argv[])
     // Verificar los parametros
     if (argc != 3)
     {
-        cerr << "Uso: " << argv[0] << " <imagen_a_color> <imagen_escala_grises>" << endl;
+        cerr << "Faltan parametros a ingresar" << endl;
+        cerr << "Se deben ingresar: <imagen_a_color> <imagen_escala_grises>" << endl;
         return -1;
     }
 
